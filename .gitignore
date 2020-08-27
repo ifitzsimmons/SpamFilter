@@ -1,3 +1,9 @@
 .ipynb_checkpoints
 datasets_483_982_spam.csv
 nohup.out
+**/output
+**/__pycache__
+**/spam_classifier_data.json
+**/test.csv
+**/training.csv
+**/spam_data.json
