@@ -42,7 +42,7 @@ def create_train_test(input_file):
 
     with open(train_file, 'w') as training, open(test_file, 'w') as test:
       for line_num, line in enumerate(lines):
-        if line_num / total_lines <= 0.8:
+        if line_num / total_lines <= 0.7:
           training.write(line)
         else:
           test.write(line)
